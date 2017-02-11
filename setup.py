@@ -45,11 +45,12 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'PyMySQL',
     ],
     extras_require=dict(
         test=[
             'gocept.testdb',
-            'pytest',
+            'pytest >= 3.0',
         ]),
     entry_points="""
       """,
