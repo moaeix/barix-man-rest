@@ -1,0 +1,3 @@
+[submodule "barix-db"]
+	path = barix-db
+	url = https://github.com/moaeix/barix-db.git
